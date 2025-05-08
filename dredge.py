@@ -337,9 +337,6 @@ def generate_sensor_data(num_records=500):
         elif parameter == 'Wear':
             value = round(random.uniform(0, 100), 2)
             threshold = 80
-        else:
-            value = 0
-            threshold = 0
         timestamp = datetime.now() - timedelta(minutes=random.randint(1, 10080))
         alert = value > threshold
         data.append({
