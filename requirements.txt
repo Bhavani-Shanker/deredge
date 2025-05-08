@@ -8,7 +8,6 @@ chromadb==0.5.5
 sentence-transformers==3.0.1
 nltk==3.9.1
 rank-bm25==0.2.2
-ortools==9.10
+ortools==9.10.4067
 numpy==1.26.4
 plotly==5.24.1
-torch==2.3.1
