@@ -7,6 +7,9 @@ import json
 import os
 from dotenv import load_dotenv
 from openai import AzureOpenAI
+import pysqlite3
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import chromadb
 from sentence_transformers import SentenceTransformer
 import nltk
