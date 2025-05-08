@@ -1,0 +1,23 @@
+streamlit 
+sqlite3
+pandas 
+PyPDF2 
+docx 
+json
+os
+dotenv load_dotenv
+openai AzureOpenAI
+chromadb
+sentence_transformers 
+nltk
+nltk.tokenize 
+rank_bm25 BM25Okapi
+re
+ortools.linear_solver 
+datetime 
+collections 
+ast 
+random
+numpy 
+plotly.express 
+calendar
