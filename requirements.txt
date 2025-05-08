@@ -21,3 +21,4 @@ random
 numpy 
 plotly.express 
 calendar
+pip install --upgrade pip
